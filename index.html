@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Js</title>
+    <link rel="icon" href="Logo.png ">
+</head>
+<body>
+    
+    <nav id="nav">
+        <ul class="navbar_list">
+            <li>Home</li>
+            <li>Menu</li>
+            <li>About</li>
+            <li>Service</li>
+        </ul>
+    </nav>
+    <h1 id="naslov">Hello</h1>
+    <p id="text"></p>
+
+
+    <script>
+        const naslov = document.getElementById("naslov")
+        const text = document.getElementById("text")
+        const nav = document.getElementById("nav")
+        const nav_ul = document.querySelector(".navbar_list")
+        naslov.style.color = "tomato"
+        text.innerText = "hello"
+        nav_ul.style.display = "flex"
+        nav_ul.style.listStyle = "none"
+        nav_ul.style.gap = "25px"
+        nav_ul.style.justifyContent = "end"
+        nav_ul.style.marginRight= "25px"
+
+// Im i queryselector
+
+    </script>
+</body>
+</html>
